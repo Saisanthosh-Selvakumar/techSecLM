@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Settings</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<div class="settings-container">
+
+  <h1>Platform Settings</h1>
+
+  <div class="settings-card">
+
+    <label>Enable Audit Logging</label>
+    <input type="checkbox" checked/>
+
+    <label>Human Review Threshold</label>
+    <select>
+      <option>Low</option>
+      <option selected>Medium</option>
+      <option>High</option>
+    </select>
+
+    <label>LLM Response Filtering</label>
+    <input type="checkbox" checked/>
+
+    <button class="btn-primary">
+      Save Settings
+    </button>
+
+  </div>
+
+</div>
+
+</body>
+</html>
