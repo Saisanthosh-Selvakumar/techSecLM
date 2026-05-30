@@ -1,4 +1,4 @@
-console.log("RiskAnalyzer AI Initialized");
+console.log("BioGuard Initialized");
 
 function sendMessage() {
   alert("Message sent to analysis agents.");
