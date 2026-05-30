@@ -1,0 +1,1 @@
+This neural implant stores patient information and communicates wirelessly.
