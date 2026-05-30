@@ -15,7 +15,7 @@ def call_llm(system_prompt, user_text):
             {"role": "user", "content": user_text}
         ],
         temperature=0.2,
-        response_format={"type": "json_object"}  # 🔥 critical fix
+        response_format={"type": "json_object"}
     )
 
     return response.choices[0].message.content
